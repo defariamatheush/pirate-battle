@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment
+.env
+.env.*
+!.env.example
+*.env.*
+
+# Logs
+*.log
+
+# Playwright (the HTML report is committed on purpose: see docs/)
+test-results/
+blob-report/
+.claude/
+tsconfig.tsbuildinfo
