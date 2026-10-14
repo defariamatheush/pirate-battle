@@ -1,0 +1,173 @@
+{
+  "generatedAt": "2026-10-13T16:51:48.829Z",
+  "environment": {
+    "hardware": "Apple M4, 16 GB RAM, darwin 25.5.0",
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M4, Unspecified Version)",
+    "browser": "Chromium (Playwright headless, ANGLE/Metal) — chromium Version 1.64.0",
+    "viewport": "1280x720 @ DPR 1",
+    "matchConfig": "180s session, enemy every 1 s, player invulnerable (playerHp=1000000) so the full duration is played",
+    "build": "vite build (production), served by vite preview"
+  },
+  "match": {
+    "wallSeconds": 180,
+    "frames": 10810,
+    "avgFps": 60,
+    "avgFrameMs": 16.66,
+    "p95FrameMs": 16.7,
+    "p99FrameMs": 16.8,
+    "maxFrameMs": 16.8,
+    "maxEntities": 18,
+    "rendererStats": {
+      "ships": 9,
+      "projectiles": 0,
+      "pooledProjectiles": 9,
+      "effects": 3,
+      "stageChildren": 95
+    },
+    "score": 26,
+    "samples": [
+      {
+        "t": 15,
+        "fps": 60.1,
+        "enemies": 8,
+        "projectiles": 6,
+        "score": 0
+      },
+      {
+        "t": 30,
+        "fps": 60.1,
+        "enemies": 8,
+        "projectiles": 1,
+        "score": 1
+      },
+      {
+        "t": 45,
+        "fps": 60,
+        "enemies": 8,
+        "projectiles": 5,
+        "score": 2
+      },
+      {
+        "t": 60,
+        "fps": 60,
+        "enemies": 8,
+        "projectiles": 5,
+        "score": 5
+      },
+      {
+        "t": 75,
+        "fps": 60,
+        "enemies": 8,
+        "projectiles": 0,
+        "score": 6
+      },
+      {
+        "t": 90,
+        "fps": 60,
+        "enemies": 8,
+        "projectiles": 4,
+        "score": 9
+      },
+      {
+        "t": 105,
+        "fps": 60,
+        "enemies": 8,
+        "projectiles": 5,
+        "score": 13
+      },
+      {
+        "t": 120,
+        "fps": 60,
+        "enemies": 8,
+        "projectiles": 1,
+        "score": 17
+      },
+      {
+        "t": 135,
+        "fps": 60,
+        "enemies": 7,
+        "projectiles": 3,
+        "score": 20
+      },
+      {
+        "t": 150,
+        "fps": 60,
+        "enemies": 8,
+        "projectiles": 1,
+        "score": 24
+      },
+      {
+        "t": 165,
+        "fps": 60,
+        "enemies": 8,
+        "projectiles": 3,
+        "score": 25
+      },
+      {
+        "t": 180,
+        "fps": 60,
+        "enemies": 8,
+        "projectiles": 0,
+        "score": 26
+      }
+    ]
+  },
+  "memoryCycles": {
+    "cycleSeconds": 20,
+    "cycles": [
+      {
+        "cycle": 0,
+        "label": "menu (baseline)",
+        "jsHeapUsedMB": 2.96,
+        "domNodes": 46,
+        "jsEventListeners": 5,
+        "documents": 1
+      },
+      {
+        "cycle": 1,
+        "label": "after cycle 1",
+        "stageChildrenDuringPlay": 96,
+        "jsHeapUsedMB": 7.12,
+        "domNodes": 245,
+        "jsEventListeners": 206,
+        "documents": 1
+      },
+      {
+        "cycle": 2,
+        "label": "after cycle 2",
+        "stageChildrenDuringPlay": 96,
+        "jsHeapUsedMB": 7.41,
+        "domNodes": 245,
+        "jsEventListeners": 206,
+        "documents": 1
+      },
+      {
+        "cycle": 3,
+        "label": "after cycle 3",
+        "stageChildrenDuringPlay": 91,
+        "jsHeapUsedMB": 7.57,
+        "domNodes": 245,
+        "jsEventListeners": 206,
+        "documents": 1
+      },
+      {
+        "cycle": 4,
+        "label": "after cycle 4",
+        "stageChildrenDuringPlay": 93,
+        "jsHeapUsedMB": 7.67,
+        "domNodes": 245,
+        "jsEventListeners": 206,
+        "documents": 1
+      },
+      {
+        "cycle": 5,
+        "label": "after cycle 5",
+        "stageChildrenDuringPlay": 96,
+        "jsHeapUsedMB": 7.81,
+        "domNodes": 245,
+        "jsEventListeners": 206,
+        "documents": 1
+      }
+    ]
+  }
+}
